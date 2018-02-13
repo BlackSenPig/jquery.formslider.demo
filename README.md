@@ -2,7 +2,7 @@
 
 Demo for https://github.com/formslider/jquery.formslider.
 
-There is also a github.io page: https://formslider.github.io/ (source: https://github.com/formslider/formslider.github.io.src)
+There is also a github.io page: https://formslider.github.io ([source](https://github.com/formslider/formslider.github.io.src))
 
 ## Minimal demo
 Open index.html in your browser and the minimal magic happens =)
@@ -18,9 +18,8 @@ Open index.html in your browser and the minimal magic happens =)
 
 ### Resources
   * https://github.com/formslider/jquery.formslider
-  * https://travis-ci.org/formslider/jquery.formslider
-  * https://codeclimate.com/github/formslider/jquery.formslider
   * http://bower.io/search/?q=jquery.formslider
+  * https://github.com/formslider
 
 ### Authors
 
