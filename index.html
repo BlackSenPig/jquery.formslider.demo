@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jquery.formslider.demo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./bower_components/jquery.formslider/dist/jquery.formslider.dependencies.min.js"></script>
+  <script src="./bower_components/jquery.formslider/dist/jquery.formslider.min.js"></script>
+
+  <link rel="stylesheet" href="./bower_components/jquery.formslider/dist/formslider.min.css">
+</head>
+<body>
+  <form>
+  <div class="formslider-wrapper">
+    <div class="formslider">
+
+      <div class="slide" data-role="question">
+        <div class="headline">Are you a man or a woman?</div>
+        <label class="answer">
+          <div class="text">man</div>
+        </label>
+        <label class="answer">
+          <div class="text">women</div>
+        </label>
+      </div>
+
+      <div class="slide" data-role="question">
+        <div class="headline">Are you cute?</div>
+        <label class="answer">
+          <div class="text">yes</div>
+        </label>
+        <label class="answer">
+          <div class="text">no</div>
+        </label>
+        <label class="answer">
+          <div class="text">it depends</div>
+        </label>
+      </div>
+
+      <div class="slide" data-role="zipcode">
+        <div class="headline">Where do you live?</div>
+        <label for="contact_zipcode">zip code</label>
+        <input type="number" required="required">
+        <a class="next-button" href="#">continue</a>
+      </div>
+
+      <div class="slide" data-role="loader">
+        <div class="headline">Please wait!</div>
+        <div class="sub-headline">It does not take long.</div>
+      </div>
+
+      <div class="slide" data-role="confirmation">
+        <div class="headline">Thank you for your interest</div>
+        <div class="sub-headline">You hear from me as soon as possible.</div>
+      </div>
+
+    </div>
+  </div>
+  </form>
+
+  <div class="progressbar-wrapper">
+    <div class="progress-text"></div>
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+
+  <script>
+  (function($){
+
+    $('.formslider-wrapper').formslider();
+
+  })(jQuery);
+  </script>
+</body>
+</html>

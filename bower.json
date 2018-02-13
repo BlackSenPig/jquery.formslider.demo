@@ -1,0 +1,13 @@
+{
+  "name": "jquery.formslider.demo",
+  "authors": [
+    "Tom Hanoldt <tom@creative-workflow.berlin>"
+  ],
+  "description": "demo for jquery.formslider",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "formslider.github.io",
+  "dependencies": {
+    "jquery.formslider": "^1.1.2"
+  }
+}
